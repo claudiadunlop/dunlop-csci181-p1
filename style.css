@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: plum;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: plum;
+  color: black;
+  line-height: 1;
+  padding: 15px;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: plum;
+  color: black;
+  line-height: 1;
+  padding: 15px;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  margin: 10px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cards {
+  background-color: plum;
+  color: black;
+  line-height: 1.5;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+  margin: 10px;
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 33%;
+}
+
+.card2 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  width: 33%;
+  background-color: white;
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card3 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  width: 33%;
+  background-color: white;
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact {
+  background-color: plum;
+  color: black;
+  line-height: 1.5;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button{
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+
+.card4 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px darkslategray;
+  line-height: 1;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 125px;
+  p {
+  line-height: 1;
+  color: white;
+  font-size: 30px;
+}
+button {
+  background-color: plum;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+}
